@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XFApp.MainPage">
+
+    <StackLayout>
+        <Label Text="Xamarin 跨平台热更新尝试" />
+
+        <Button Text="打开本地页面" Command="{Binding OpenLocalPage}" />
+        <Button Text="打开可热更页面" Command="{Binding OpenILPage}" />
+    </StackLayout>
+
+</ContentPage>

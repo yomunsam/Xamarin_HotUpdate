@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XFApp.HotUpdate.Views.HotUpdatePage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="这是热更工程里的页面"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                FontSize="Large" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
