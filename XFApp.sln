@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XFApp", "XFApp\XFApp\XFApp.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HotUpdate", "HotUpdate", "{695F73DB-42D1-491D-A6F0-11A7449178D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFApp.HotUpdate", "XFApp.HotUpdate\XFApp.HotUpdate.csproj", "{A092E8E4-CB5D-4150-A8DC-B89786829F73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XFApp.HotUpdate", "XFApp.HotUpdate\XFApp.HotUpdate.csproj", "{A092E8E4-CB5D-4150-A8DC-B89786829F73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

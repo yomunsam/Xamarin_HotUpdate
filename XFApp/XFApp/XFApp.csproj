@@ -12,24 +12,24 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="HotDlls\XFApp.HotUpdate.dll.bytes" />
-    <None Remove="HotDlls\XFApp.HotUpdate.pdb.bytes" />
+    <None Remove="HotDlls\XFApp.HotUpdate.dll" />
+    <None Remove="HotDlls\XFApp.HotUpdate.pdb" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="HotDlls\XFApp.HotUpdate.dll.bytes" />
-    <EmbeddedResource Include="HotDlls\XFApp.HotUpdate.pdb.bytes" />
+    <EmbeddedResource Include="HotDlls\XFApp.HotUpdate.dll" />
+    <EmbeddedResource Include="HotDlls\XFApp.HotUpdate.pdb" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Konata.Core" Version="1.0.1-stable" />
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.1905" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
     <PackageReference Include="Xamarin.Essentials" Version="1.6.0" />
   </ItemGroup>
 
   <ItemGroup>
     <Reference Include="ILRuntim.Mono.Cecil">
-      <HintPath>..\ILRuntime\ILRuntim.Mono.Cecil.dll</HintPath>
+      <HintPath>..\ILRuntime\ILRuntime.Mono.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="ILRuntime">
       <HintPath>..\ILRuntime\ILRuntime.dll</HintPath>

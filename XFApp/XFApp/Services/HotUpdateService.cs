@@ -64,8 +64,8 @@ namespace XFApp.Services
         {
             var asm = IntrospectionExtensions.GetTypeInfo(typeof(HotUpdateService)).Assembly;
             var resources = asm.GetManifestResourceNames();
-            Stream stream_dll = asm.GetManifestResourceStream("XFApp.HotDlls.XFApp.HotUpdate.dll.bytes");
-            Stream stream_pdb = asm.GetManifestResourceStream("XFApp.HotDlls.XFApp.HotUpdate.pdb.bytes");
+            Stream stream_dll = asm.GetManifestResourceStream("XFApp.HotDlls.XFApp.HotUpdate.dll");
+            Stream stream_pdb = asm.GetManifestResourceStream("XFApp.HotDlls.XFApp.HotUpdate.pdb");
 
             m_AppDomain.LoadAssembly(stream_dll, stream_pdb, new PdbReaderProvider());
 

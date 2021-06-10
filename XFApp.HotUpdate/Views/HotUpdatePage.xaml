@@ -1,13 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:vm="clr-namespace:XFApp.HotUpdate.ViewModels"
+             xmlns:views="clr-namespace:XFApp.HotUpdate.Views"
              x:Class="XFApp.HotUpdate.Views.HotUpdatePage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="这是热更工程里的页面"
+        <StackLayout x:Name="mainStack">
+            <Label Text="Title"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"
-                FontSize="Large" />
+                FontSize="Large">
+            </Label>
+
+            <views:TestButton x:Name="button" Text="abc"></views:TestButton>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

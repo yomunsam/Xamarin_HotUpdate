@@ -4,7 +4,7 @@
              x:Class="XFApp.Views.Home">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="这是来自本地（冷更层）的页面"
+            <Label Text="This is a page from the local (cold update)"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"
                 FontSize="Large"/>

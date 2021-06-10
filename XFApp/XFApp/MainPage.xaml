@@ -4,10 +4,11 @@
              x:Class="XFApp.MainPage">
 
     <StackLayout>
-        <Label Text="Xamarin 跨平台热更新尝试" />
+        <Label Text="Xamarin HotUpdate" />
 
-        <Button Text="打开本地页面" Command="{Binding OpenLocalPage}" />
-        <Button Text="打开可热更页面" Command="{Binding OpenILPage}" />
+        <Button Text="Open local page" Command="{Binding OpenLocalPage}" />
+        <Button Text="Open the hot update page" Command="{Binding OpenILPage}" />
+        <Button x:Name="buttontest" Text="test"></Button>
     </StackLayout>
 
 </ContentPage>

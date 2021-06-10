@@ -17,4 +17,13 @@ namespace XFApp.HotUpdate.Views
             InitializeComponent();
         }
     }
+
+    public class TestButton : Button
+    {
+        public static string ButtonClick(object sender, EventArgs e)
+        {
+            (sender as Button).Text = Guid.NewGuid().ToString();
+            return (sender as Button).Text;
+        }
+    }
 }

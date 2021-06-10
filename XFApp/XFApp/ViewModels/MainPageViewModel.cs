@@ -38,6 +38,7 @@ namespace XFApp.ViewModels
             //{
             //    Console.WriteLine("热更层返回：" + result as string);
             //}
+
             try
             {
                 var result = this.HotUpdateService.ILRuntimeAppDomain.Invoke("XFApp.HotUpdate.Entry", "OpenUIAsync", null, null);
