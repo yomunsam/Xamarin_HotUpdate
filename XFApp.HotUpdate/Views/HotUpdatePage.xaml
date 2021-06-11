@@ -11,7 +11,7 @@
                 FontSize="Large">
             </Label>
 
-            <views:TestButton x:Name="button" Text="abc"></views:TestButton>
+            <views:HotUpdateButton x:Name="button" Text="abc"></views:HotUpdateButton>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

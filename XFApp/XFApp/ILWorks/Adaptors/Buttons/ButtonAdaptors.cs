@@ -10,7 +10,7 @@ using AppDomain = ILRuntime.Runtime.Enviorment.AppDomain;
 
 namespace XFApp.ILWorks.Adaptors.Buttons
 {
-    public class ButtonAdaptors: CrossBindingAdaptor
+    public class ButtonAdaptors : CrossBindingAdaptor
     {
         public override Type BaseCLRType => typeof(Button);
 
@@ -42,7 +42,7 @@ namespace XFApp.ILWorks.Adaptors.Buttons
 
             private void MyButton_Clicked(object sender, EventArgs e)
             {
-                var result = this.appdomain.Invoke("XFApp.HotUpdate.Views.TestButton", "ButtonClick", null, sender, e);
+                var result = this.appdomain.Invoke("XFApp.HotUpdate.Views.HotUpdateButton", "ButtonClick", null, sender, e);
                 if (result is string)
                 {
                     var a = result as string;

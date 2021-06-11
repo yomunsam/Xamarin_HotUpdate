@@ -18,7 +18,7 @@ namespace XFApp.HotUpdate.Views
         }
     }
 
-    public class TestButton : Button
+    public class HotUpdateButton : Button
     {
         public static string ButtonClick(object sender, EventArgs e)
         {

@@ -5,14 +5,8 @@ using XFApp.HotUpdate.Views;
 
 namespace XFApp.HotUpdate
 {
-    public class Entry
+    public class Main
     {
-        public static string SayHello()
-        {
-            Console.WriteLine("hello");
-            return "Hello";
-        }
-
         public static async Task OpenUIAsync()
         {
             Console.WriteLine("OpenUIAsync");
